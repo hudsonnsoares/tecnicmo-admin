@@ -4,7 +4,6 @@
 }
 body{
   padding: 10px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 main{
@@ -23,8 +22,15 @@ input#TecAdmin{
 input.Inputfase{
   width: 30px;
   height: 30px;
-  margin: 20px auto;
+  margin: 20px;
   display: block;
+}
+.fase .accordion-button:not(.collapsed){
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.accordion-item:last-of-type{
+  border: none;
 }
 .conteudoFase input{
   width: 20px;
@@ -33,6 +39,7 @@ input.Inputfase{
 fieldset{
   border-radius: 10px;
   padding: 40px;
+  border-bottom: 1px solid #666 !important;
 }
 legend{
   text-align: center;
@@ -41,28 +48,20 @@ legend{
   font-size: 22px;
 }
 .headerConteudo{
-  display: flex;
   text-align: left;
   justify-content: space-between;
   font-family: bc-alphapipe, sans-serif;
   font-weight: 200;
-  font-size: 22px;
-  padding: 20px;
+  font-size: 28px !important;
+  padding: 10px;
   border-radius: 20px;
   background-color: #FFF;
   position: realtive;
   z-index: 2;
   cursor: pointer;
 }
-.headerConteudo .fa-solid{
-  font-size: 35px;
-  
-}
 .conteudoFase{
-  padding: 50px 20px;
-  border-radius: 20px;
-  margin-top: 0px;
-  z-index: -1;
+  padding: 5px 20px;
 }
 .conteudoFase .lista{
   display: flex;
@@ -92,9 +91,39 @@ legend{
 #headerDois h2{
   color:#0586CE;
 }
+#headerTres{
+  box-shadow: 0px 10px 0px #E36A5C;
+  border: 1px solid #E36A5C ;
+}
+#headerTres h2{
+  color:#E36A5C;
+}
+#headerQuatro{
+  box-shadow: 0px 10px 0px #48A1A9;
+  border: 1px solid #48A1A9 ;
+}
+#headerQuatro h2{
+  color:#48A1A9;
+}
+#headerCinco{
+  box-shadow: 0px 10px 0px #252A35;
+  border: 1px solid #252A35 ;
+}
+#headerCinco h2{
+  color:#252A35;
+}
 #contentUM{
   border: 1px solid #B8D629 ;
 }
 #contentDois{
   border: 1px solid #0586CE ;
+}
+#contentTres{
+  border: 1px solid #E36A5C ;
+}
+#contentQuatro{
+  border: 1px solid #48A1A9 ;
+}
+#contentCinco{
+  border: 1px solid #252A35 ;
 }
