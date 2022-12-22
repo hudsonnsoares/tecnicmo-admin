@@ -13,12 +13,8 @@
 <body>
   <main class="container">
     <input type="checkbox" id="TecAdmin">
+    <h2 class="text-center" id="titleTecnico">TÉCNICO EM ADMINISTRAÇÃO</h2>
     <fieldset>
-      
-      <legend>
-        <h2>TÉCNICO EM ADMINISTRAÇÃO</h2>
-      </legend>
-
       <!--FASE 01-->
       <div class="accordion" id="accordionExample">
         <div class="accordion-item fase">
@@ -28,7 +24,7 @@
                 <h2 class="align-self-center">1º FASE - A ORIGEM</h2>
               </div>
           </div>
-          <div id="contentUM" class="conteudoFase accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="contentUM" class="conteudoFase accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <div class="lista">
                 <h3>Habilidades que serão apreendidas nesta fase</h3>
@@ -63,7 +59,7 @@
        <div class="accordion mt-5" id="accordionExample">
         <div class="accordion-item fase">
           <div class="accordion-header headerConteudo d-flex" id="headerDois">
-              <input type="checkbox" class="Inputfase" id="SegundaFase">
+              <input type="checkbox" class="Inputfase" id="SegundaFase" data-bs-toggle="collapse" data-bs-target="#contentDois" aria-expanded="true" aria-controls="contentDois">
               <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentDois" aria-expanded="true" aria-controls="contentDois">
                 <h2 class="align-self-center">2º FASE - ENGRENAGEM</h2>
               </div>
@@ -74,22 +70,22 @@
                 <h3>Habilidades que serão apreendidas nesta fase</h3>
                 <div>
                   <input type="checkbox" id="SfaseHab01">
-                  <label for="PfaseHab01">Primeira Habilidade</label>
+                  <label for="SfaseHab01">Primeira Habilidade</label>
                 </div>
     
                 <div>
                   <input type="checkbox" id="SfaseHab02">
-                  <label for="PfaseHab02">Primeira Habilidade</label>
+                  <label for="SfaseHab02">Primeira Habilidade</label>
                 </div>
     
                 <div>
                   <input type="checkbox" id="SfaseHab03">
-                  <label for="PfaseHab03">Primeira Habilidade</label>
+                  <label for="SfaseHab03">Primeira Habilidade</label>
                 </div>
                 
                 <div>
                   <input type="checkbox" id="SfaseHab04">
-                  <label for="PfaseHab04">Primeira Habilidade</label>
+                  <label for="SfaseHab04">Primeira Habilidade</label>
                 </div>
     
               </div>
@@ -103,7 +99,7 @@
       <div class="accordion mt-5" id="accordionExample">
         <div class="accordion-item fase">
           <div class="accordion-header headerConteudo d-flex" id="headerTres">
-              <input type="checkbox" class="Inputfase" id="TerceiraFase">
+              <input type="checkbox" class="Inputfase" id="TerceiraFase" data-bs-toggle="collapse" data-bs-target="#contentTres" aria-expanded="true" aria-controls="contentTres">
               <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentTres" aria-expanded="true" aria-controls="contentTres">
                 <h2 class="align-self-center">3º FASE - INOVANDO</h2>
               </div>
@@ -114,22 +110,22 @@
                 <h3>Habilidades que serão apreendidas nesta fase</h3>
                 <div>
                   <input type="checkbox" id="TfaseHab01">
-                  <label for="PfaseHab01">Primeira Habilidade</label>
+                  <label for="TfaseHab01">Primeira Habilidade</label>
                 </div>
     
                 <div>
                   <input type="checkbox" id="TfaseHab02">
-                  <label for="PfaseHab02">Primeira Habilidade</label>
+                  <label for="TfaseHab02">Primeira Habilidade</label>
                 </div>
     
                 <div>
                   <input type="checkbox" id="TfaseHab03">
-                  <label for="PfaseHab03">Primeira Habilidade</label>
+                  <label for="TfaseHab03">Primeira Habilidade</label>
                 </div>
                 
                 <div>
                   <input type="checkbox" id="TfaseHab04">
-                  <label for="PfaseHab04">Primeira Habilidade</label>
+                  <label for="TfaseHab04">Primeira Habilidade</label>
                 </div>
     
               </div>
@@ -139,8 +135,107 @@
       </div>
       <!--FASE o3-->
 
+      <!--FASE 04-->
+      <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item fase">
+          <div class="accordion-header headerConteudo d-flex" id="headerQuatro">
+              <input type="checkbox" class="Inputfase" id="QuartaFase" data-bs-toggle="collapse" data-bs-target="#contentQuatro" aria-expanded="true" aria-controls="contentQuatro">
+              <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentQuatro" aria-expanded="true" aria-controls="contentQuatro">
+                <h2 class="align-self-center">4º FASE - INOVANDO</h2>
+              </div>
+          </div>
+          <div id="contentQuatro" class="conteudoFase accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="lista">
+                <h3>Habilidades que serão apreendidas nesta fase</h3>
+                <div>
+                  <input type="checkbox" id="QfaseHab01">
+                  <label for="QfaseHab01">Primeira Habilidade</label>
+                </div>
+    
+                <div>
+                  <input type="checkbox" id="QfaseHab02">
+                  <label for="QfaseHab02">Primeira Habilidade</label>
+                </div>
+    
+                <div>
+                  <input type="checkbox" id="QfaseHab03">
+                  <label for="QfaseHab03">Primeira Habilidade</label>
+                </div>
+                
+                <div>
+                  <input type="checkbox" id="QfaseHab04">
+                  <label for="QfaseHab04">Primeira Habilidade</label>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--FASE o4-->
+
+       <!--FASE 05-->
+       <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item fase">
+          <div class="accordion-header headerConteudo d-flex" id="headerCinco">
+              <input type="checkbox" class="Inputfase" id="QuintaFase" data-bs-toggle="collapse" data-bs-target="#contentCinco" aria-expanded="true" aria-controls="contentCinco">
+              <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentCinco" aria-expanded="true" aria-controls="contentCinco">
+                <h2 class="align-self-center">5º FASE - INOVANDO</h2>
+              </div>
+          </div>
+          <div id="contentCinco" class="conteudoFase accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="lista">
+                <h3>Habilidades que serão apreendidas nesta fase</h3>
+                <div>
+                  <input type="checkbox" id="QifaseHab01">
+                  <label for="QifaseHab01">Primeira Habilidade</label>
+                </div>
+    
+                <div>
+                  <input type="checkbox" id="QifaseHab02">
+                  <label for="QifaseHab02">Primeira Habilidade</label>
+                </div>
+    
+                <div>
+                  <input type="checkbox" id="QifaseHab03">
+                  <label for="QifaseHab03">Primeira Habilidade</label>
+                </div>
+                
+                <div>
+                  <input type="checkbox" id="QifaseHab04">
+                  <label for="QifaseHab04">Primeira Habilidade</label>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--FASE o54-->
+
+      <div class="campoTotal">
+        <div class="d-flex justify-content-around">
+          <div>
+            <h3>TOTAL</h3>
+          </div>
+
+          <div id="descricao">
+            <ul>
+              <li>Sua selação</li>
+            </ul>
+          </div>
+
+          <div id="somaTotal">
+            <p>R$ 0,00</p>
+          </div>
+        </div>
+      </div>
+
     </fieldset>
   </main>
+  <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
