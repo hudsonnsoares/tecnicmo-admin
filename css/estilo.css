@@ -41,11 +41,12 @@ fieldset{
   padding: 40px !important;
   border: 1px solid #666 !important;
 }
-legend{
+#titleTecnico{
   text-align: center;
   font-family: bc-alphapipe, sans-serif;
-  font-weight: 200;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 15px 0;
 }
 .headerConteudo{
   text-align: left;
