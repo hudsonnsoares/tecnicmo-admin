@@ -1,9 +1,14 @@
 //Selecionar Técnico seleciona Tudo | x |
 //Selecionar Fase Seleciona a fase + suas habilidades | x |
-//Selecionar as habilidades individualmente | |
+//Selecionar as habilidades individualmente | x |
 
 //Calcular o custo do curso e mostra no campo Total
 //A soma deve calcular apenas os campos selecionados
+
+//Se tentar selecionar um componente ou bloco individualmente, abrir formulário de lead.
+//Se selecionar Técnico em Administração iniciar o processo de inscriçãos
+
+//Adicionar de acordo com a Matriz atual que a Melina enviou por e-mail. Incluir o campo de observação para possíveis alterações.
 
 var selecaoTecAdmin = document.querySelector('#TecAdmin');
 var todasFases = document.querySelectorAll('.Inputfase');
